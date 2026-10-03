@@ -1,0 +1,47 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\jhack\Documents\Codex\2026-10-01\ar-2\work\build-env\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\jhack\Documents\Codex\2026-10-01\ar-2\work\santa-rosa
+collecting ... collected 38 items
+
+tests/test_system.py::test_patient_search_case_insensitive PASSED        [  2%]
+tests/test_system.py::test_duplicate_patient_rejected PASSED             [  5%]
+tests/test_system.py::test_patient_immutable PASSED                      [  7%]
+tests/test_system.py::test_invalid_dates[] PASSED                        [ 10%]
+tests/test_system.py::test_invalid_dates[2026-02-30] PASSED              [ 13%]
+tests/test_system.py::test_invalid_dates[03-10-2026] PASSED              [ 15%]
+tests/test_system.py::test_invalid_dates[2026-1-1] PASSED                [ 18%]
+tests/test_system.py::test_invalid_quantities[0] PASSED                  [ 21%]
+tests/test_system.py::test_invalid_quantities[-1] PASSED                 [ 23%]
+tests/test_system.py::test_invalid_quantities[1.5] PASSED                [ 26%]
+tests/test_system.py::test_invalid_quantities[hola] PASSED               [ 28%]
+tests/test_system.py::test_invalid_quantities[True] PASSED               [ 31%]
+tests/test_system.py::test_unknown_patient PASSED                        [ 34%]
+tests/test_system.py::test_professional_conflict PASSED                  [ 36%]
+tests/test_system.py::test_patient_conflict PASSED                       [ 39%]
+tests/test_system.py::test_cancel_releases_slot PASSED                   [ 42%]
+tests/test_system.py::test_reschedule PASSED                             [ 44%]
+tests/test_system.py::test_reschedule_conflict_rolls_back PASSED         [ 47%]
+tests/test_system.py::test_invalid_half_hour PASSED                      [ 50%]
+tests/test_system.py::test_past_appointment PASSED                       [ 52%]
+tests/test_system.py::test_future_attention_blocked PASSED               [ 55%]
+tests/test_system.py::test_attention_once PASSED                         [ 57%]
+tests/test_system.py::test_cancelled_attention_blocked PASSED            [ 60%]
+tests/test_system.py::test_stock_and_movement PASSED                     [ 63%]
+tests/test_system.py::test_insufficient_stock PASSED                     [ 65%]
+tests/test_system.py::test_expiry_today_blocks PASSED                    [ 68%]
+tests/test_system.py::test_movement_failure_rolls_back PASSED            [ 71%]
+tests/test_system.py::test_alerts_and_report PASSED                      [ 73%]
+tests/test_system.py::test_report_invalid_range PASSED                   [ 76%]
+tests/test_system.py::test_sql_text_is_data PASSED                       [ 78%]
+tests/test_system.py::test_csv_has_no_patient_names PASSED               [ 81%]
+tests/test_system.py::test_csv_formula_neutralized PASSED                [ 84%]
+tests/test_system.py::test_encryption_persistence_backup PASSED          [ 86%]
+tests/test_system.py::test_wrong_password PASSED                         [ 89%]
+tests/test_system.py::test_tampering_detected PASSED                     [ 92%]
+tests/test_system.py::test_disk_failure_rolls_back PASSED                [ 94%]
+tests/test_system.py::test_two_sessions_blocked PASSED                   [ 97%]
+tests/test_system.py::test_repository_substitution PASSED                [100%]
+
+- generated xml file: C:\Users\jhack\Documents\Codex\2026-10-01\ar-2\work\santa-rosa\docs\resultados_pytest.xml -
+============================= 38 passed in 2.07s ==============================

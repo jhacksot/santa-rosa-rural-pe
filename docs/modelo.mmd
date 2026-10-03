@@ -1,0 +1,85 @@
+classDiagram
+class Desktop {
+ -service CentroService
+ +build()
+ +run(action)
+ +refresh()
+}
+class CentroService {
+ +patients PatientService
+ +agenda AgendaService
+ +inventory InventoryService
+ +reports ReportService
+ +close()
+}
+class Repository {
+ <<abstract>>
+ +rows(sql, params)
+ +execute(sql, params)
+ +transaction()
+}
+class SQLiteRepository {
+ -_db Connection
+ +vault Vault
+ +rows(sql, params)
+ +execute(sql, params)
+ +transaction()
+ +backup(path)
+ +close()
+}
+class Vault {
+ +path Path
+ +salt bytes
+ -_cipher Fernet
+ +write(data, target)
+}
+class Patient {
+ -_code str
+ -_name str
+ +code property
+ +name property
+ +__post_init__()
+}
+class PatientService {
+ +repo Repository
+ +register(code, name)
+ +search(query)
+}
+class AgendaService {
+ +repo Repository
+ +clock Callable
+ +schedule(patient, professional, starts)
+ +reschedule(id, starts)
+ +cancel(id)
+ +attend(id, area)
+}
+class InventoryService {
+ +repo Repository
+ +clock Callable
+ +register(code, product, expires, stock)
+ +move(code, amount, kind)
+ +alerts(threshold, horizon)
+}
+class ReportService {
+ +repo Repository
+ +summarize(start, end)
+ +export(path, start, end)
+}
+class ServiceFactory {
+ +create(path, password, clock) CentroService
+}
+Desktop --> CentroService
+CentroService *-- PatientService
+CentroService *-- AgendaService
+CentroService *-- InventoryService
+CentroService *-- ReportService
+PatientService ..> Patient : construye
+PatientService --> Repository
+AgendaService --> Repository
+InventoryService --> Repository
+ReportService --> Repository
+Repository <|-- SQLiteRepository
+SQLiteRepository --> Vault
+ServiceFactory ..> CentroService : construye
+ServiceFactory ..> SQLiteRepository : construye
+ServiceFactory ..> Vault : construye

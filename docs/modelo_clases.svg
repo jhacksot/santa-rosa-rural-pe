@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="483" height="545" preserveAspectRatio="xMinYMin meet" viewBox="0 0 483 545" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="483" height="545"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-545)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="458" width="142" height="74" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="509" width="142" height="23" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,93%,94%); fill-rule: evenodd;"/>
+			<text x="55.548828125" y="517" style="font-family: Calibri-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1034) scale(1,-1)">Desktop</text>
+			<text x="5" y="496" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,992) scale(1,-1)">- service: CentroService</text>
+			<text x="5" y="484" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,968) scale(1,-1)">+ build(); run(action)</text>
+			<text x="5" y="472" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,944) scale(1,-1)">+ refresh(); close()</text>
+			<rect x="171" y="458" width="142" height="74" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="171" y="509" width="142" height="23" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,93%,94%); fill-rule: evenodd;"/>
+			<text x="215.984375" y="517" style="font-family: Calibri-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1034) scale(1,-1)">CentroService</text>
+			<text x="176" y="496" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,992) scale(1,-1)">+ patients; agenda; inventory</text>
+			<text x="176" y="484" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,968) scale(1,-1)">+ reports; repo; lock</text>
+			<text x="176" y="472" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,944) scale(1,-1)">+ close()</text>
+			<rect x="341" y="458" width="142" height="74" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="341" y="509" width="142" height="23" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,93%,94%); fill-rule: evenodd;"/>
+			<text x="384.7451171875" y="517" style="font-family: Calibri-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,1034) scale(1,-1)">ServiceFactory</text>
+			<text x="346" y="496" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,992) scale(1,-1)">+ create(path, password,</text>
+			<text x="346" y="484" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,968) scale(1,-1)">  clock): CentroService</text>
+			<polyline points="142 496, 171 496" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd;"/>
+			<polyline points="341 496, 313 496" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 313,496 L 319.143078,492.644021 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 313,496 L 319.143078,499.355979 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<rect x="0" y="330" width="114" height="84" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="391" width="114" height="23" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,93%,94%); fill-rule: evenodd;"/>
+			<text x="30.103271484374996" y="399" style="font-family: Calibri-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,798) scale(1,-1)">PatientService</text>
+			<text x="5" y="378" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,756) scale(1,-1)">+ repo: Repository</text>
+			<text x="5" y="366" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,732) scale(1,-1)">+ register(code, name)</text>
+			<text x="5" y="354" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,708) scale(1,-1)">+ search(query)</text>
+			<polyline points="242 458, 242 438, 57 438, 57 414" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd;"/>
+			<polygon points="242 458, 238 452, 242 446, 246 452" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 1; fill: rgb(21%,36%,39%); fill-rule: evenodd;"/>
+			<polyline points="57 330, 57 305, 242 305, 242 283" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 242,283 L 245.355979,289.143078 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 242,283 L 238.644021,289.143078 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<rect x="123" y="330" width="114" height="84" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="123" y="391" width="114" height="23" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,93%,94%); fill-rule: evenodd;"/>
+			<text x="152.448486328125" y="399" style="font-family: Calibri-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,798) scale(1,-1)">AgendaService</text>
+			<text x="128" y="378" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,756) scale(1,-1)">+ repo; clock</text>
+			<text x="128" y="366" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,732) scale(1,-1)">+ schedule(); reschedule()</text>
+			<text x="128" y="354" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,708) scale(1,-1)">+ cancel(); attend()</text>
+			<polyline points="242 458, 242 438, 180 438, 180 414" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd;"/>
+			<polyline points="180 330, 180 305, 242 305, 242 283" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 242,283 L 245.355979,289.143078 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 242,283 L 238.644021,289.143078 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<rect x="246" y="330" width="114" height="84" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="246" y="391" width="114" height="23" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,93%,94%); fill-rule: evenodd;"/>
+			<text x="271.4912109375" y="399" style="font-family: Calibri-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,798) scale(1,-1)">InventoryService</text>
+			<text x="251" y="378" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,756) scale(1,-1)">+ repo; clock</text>
+			<text x="251" y="366" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,732) scale(1,-1)">+ register(); move()</text>
+			<text x="251" y="354" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,708) scale(1,-1)">+ alerts(); movements()</text>
+			<polyline points="242 458, 242 438, 303 438, 303 414" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd;"/>
+			<polyline points="303 330, 303 305, 242 305, 242 283" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 242,283 L 245.355979,289.143078 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 242,283 L 238.644021,289.143078 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<rect x="369" y="330" width="114" height="84" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="369" y="391" width="114" height="23" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,93%,94%); fill-rule: evenodd;"/>
+			<text x="399.832763671875" y="399" style="font-family: Calibri-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,798) scale(1,-1)">ReportService</text>
+			<text x="374" y="378" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,756) scale(1,-1)">+ repo: Repository</text>
+			<text x="374" y="366" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,732) scale(1,-1)">+ summarize(start, end)</text>
+			<text x="374" y="354" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,708) scale(1,-1)">+ export(path, start, end)</text>
+			<polyline points="242 458, 242 438, 426 438, 426 414" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd;"/>
+			<polyline points="426 330, 426 305, 242 305, 242 283" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 242,283 L 245.355979,289.143078 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 242,283 L 238.644021,289.143078 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<rect x="0" y="194" width="142" height="89" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="0" y="260" width="142" height="23" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,93%,94%); fill-rule: evenodd;"/>
+			<text x="57.47802734375" y="268" style="font-family: Calibri-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,536) scale(1,-1)">Patient</text>
+			<text x="5" y="247" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,494) scale(1,-1)">- _code: str; _name: str</text>
+			<text x="5" y="235" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,470) scale(1,-1)">+ code; name (propiedades)</text>
+			<text x="5" y="223" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,446) scale(1,-1)">+ __post_init__()</text>
+			<text x="5" y="211" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,422) scale(1,-1)">{frozen: True}</text>
+			<polyline points="57 330, 57 283" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd; stroke-dasharray: 3, 2;"/>
+			<path d="M 57,283 L 60.355979,289.143078 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 57,283 L 53.644021,289.143078 Z" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<rect x="171" y="194" width="142" height="89" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="171" y="260" width="142" height="23" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,93%,94%); fill-rule: evenodd;"/>
+			<text x="200.636474609375" y="268" style="font-family: Calibri-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,536) scale(1,-1)">Repository «abstract»</text>
+			<text x="176" y="247" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,494) scale(1,-1)">+ rows(sql, params)</text>
+			<text x="176" y="235" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,470) scale(1,-1)">+ execute(sql, params)</text>
+			<text x="176" y="223" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,446) scale(1,-1)">+ transaction()</text>
+			<rect x="171" y="51" width="142" height="99" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="171" y="127" width="142" height="23" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,93%,94%); fill-rule: evenodd;"/>
+			<text x="209.708984375" y="135" style="font-family: Calibri-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,270) scale(1,-1)">SQLiteRepository</text>
+			<text x="176" y="114" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,228) scale(1,-1)">- _db: Connection</text>
+			<text x="176" y="102" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,204) scale(1,-1)">+ vault: Vault</text>
+			<text x="176" y="90" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,180) scale(1,-1)">+ rows(); execute()</text>
+			<text x="176" y="78" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,156) scale(1,-1)">+ transaction(); backup()</text>
+			<text x="176" y="66" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,132) scale(1,-1)">+ close()</text>
+			<polyline points="242 150, 242 194" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd;"/>
+			<polygon points="242 194, 237 185, 247 185" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="341" y="51" width="142" height="99" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="341" y="127" width="142" height="23" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(89%,93%,94%); fill-rule: evenodd;"/>
+			<text x="402.03759765625" y="135" style="font-family: Calibri-Bold; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,270) scale(1,-1)">Vault</text>
+			<text x="346" y="114" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,228) scale(1,-1)">+ path; salt</text>
+			<text x="346" y="102" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,204) scale(1,-1)">- _cipher: Fernet</text>
+			<text x="346" y="90" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,180) scale(1,-1)">+ initial: bytes</text>
+			<text x="346" y="78" style="font-family: Calibri; font-size: 8.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,156) scale(1,-1)">+ write(data, target)</text>
+			<polyline points="313 99, 341 99" style="stroke: rgb(21%,36%,39%); stroke-linecap: butt; stroke-width: 0.8; fill: None; fill-rule: evenodd;"/>
+			<text x="0" y="21" style="font-family: Calibri; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,42) scale(1,-1)">Rombo: composición de CentroService con sus cuatro servicios.</text>
+			<text x="0" y="7" style="font-family: Calibri; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,14) scale(1,-1)">Triángulo: herencia. Línea: asociación. Trazo discontinuo: dependencia.</text>
+		</g>
+	</g>
+</svg>
