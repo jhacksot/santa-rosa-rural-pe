@@ -1,0 +1,67 @@
+{
+  "ejecutable_empaquetado": true,
+  "python": "3.12.14",
+  "sistema": "Windows-11-10.0.26300-SP0",
+  "pruebas": [
+    {
+      "prueba": "Botón registrar paciente",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Mensaje de paciente duplicado",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Botón buscar",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Botón programar cita",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Botón reprogramar",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Botón cancelar",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Botón registrar atención",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Botón registrar lote",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Botón salida de 2 unidades",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Mensaje de stock insuficiente",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Botón entrada",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Botón alertas",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Botón reporte",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Exportación y respaldo",
+      "resultado": "APROBADO"
+    },
+    {
+      "prueba": "Persistencia después de cerrar",
+      "resultado": "APROBADO"
+    }
+  ]
+}
